@@ -1,0 +1,12 @@
+<img src="../../../assets/specialite.jpeg">
+<h2>Liste des Spécialités</h2>
+<table>
+    <tr>
+        <th>Libellé</th>
+        <th>Id Spécialité</th>
+    </tr>
+    <tr *ngFor="let specialite of specialites">
+        <td>{{specialite._libelle}}</td>
+        <td>{{specialite._idSpec}}</td>
+    </tr>
+</table>
